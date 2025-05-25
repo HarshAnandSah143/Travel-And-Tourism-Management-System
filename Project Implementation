@@ -1,0 +1,36 @@
+* **Creatied the new project with JDK & IDE setup**
+  The project was created using Java JDK 8 and developed using IntelliJ IDEA. All necessary
+  environment variables were configured, and the project was initialized with proper directory
+  structure.
+
+*  The project structure**
+  The project follows a modular MVC structure with separate packages for models, DAO, UI, and
+  utility classes. This ensures clear separation of concerns and easy maintainability.
+
+*  **Designed the database schema for the project**
+  The database schema includes tables for Customers, Packages, Bookings, and Admin.
+  Relationships are properly defined to support application functionality.
+
+*  **Created a MySQL table**
+  MySQL tables were created using travel\_tourism.sql, which defines and populates tables for
+  customers, bookings, and tour packages.
+
+*  **Implemented JDBC for database connectivity**
+  The DBConnection.java utility class handles database connections using JDBC. Proper exception
+  handling ensures reliable connectivity.
+
+*  **Create Model, DAO classes for the database operations**
+  Each table has corresponding model and DAO classes for encapsulating data and implementing
+  CRUD operations. DAO classes abstract direct SQL interactions.
+
+*  **Aesthetics and Visual Appeal of the UI**
+  The UI is designed using Java Swing with consistent colors, fonts, and spacing. Icons and labels
+  enhance usability.
+
+*  **Component Placement and Alignment in the UI**
+  Swing layout managers like GridBagLayout and BorderLayout are used for structured component
+  placement. All buttons, labels, and fields are well-aligned.
+
+*  **Responsiveness and Accessibility of the UI**
+  The UI resizes appropriately with window resizing, and input fields support keyboard navigation.
+  Tooltips and labels improve accessibility.
