@@ -1,0 +1,59 @@
+travel-management-system/
+│
+├── src/
+│   └── travel/
+│       └── management/
+│           └── system/
+│               ├── dao/
+│               │   ├── CustomerDAO.java
+│               │   ├── HotelDAO.java
+│               │   ├── PackageDAO.java
+│               │   └── UserDAO.java
+│               │
+│               ├── model/
+│               │   ├── Customer.java
+│               │   ├── Hotel.java
+│               │   ├── Package.java
+│               │   └── HotelBooking.java
+│               │
+│               ├── util/
+│               │   └── Conn.java
+│               │
+│               ├── gui/
+│               │   ├── About.java
+│               │   ├── AddCustomer.java
+│               │   ├── BookHotel.java
+│               │   ├── BookPackage.java
+│               │   ├── CheckHotels.java
+│               │   ├── CheckPackage.java
+│               │   ├── DeleteCustomer.java
+│               │   ├── Destination.java
+│               │   ├── ForgotPassword.java
+│               │   ├── Home.java
+│               │   ├── Login.java
+│               │   ├── Payment.java
+│               │   ├── Paytm.java
+│               │   ├── Signup.java
+│               │   ├── Splash.java
+│               │   ├── UpdateCustomer.java
+│               │   ├── ViewBookedHotel.java
+│               │   ├── ViewCustomers.java
+│               │   ├── ViewPackage.java
+│               │   └── ViewTicket.java
+│               │
+│               └── resources/
+│                   └── icons/
+│                       ├── book.jpg
+│                       ├── hotel1.jpg
+│                       ├── package1.jpg
+│                       └── splash.jpg
+│
+├── lib/
+│   └── mysql-connector-java-8.0.28.jar
+│
+├── database/
+│   ├── init.sql
+│   └── sample_data.sql
+│
+├── .gitignore
+└── README.md
